@@ -1,0 +1,5 @@
+1;Headphones;1415;53
+2;Pedometer;1999;17
+3;Dictaphone;1965;6
+4;Laptop;29866;20
+5;Mobile phone;18000;11
