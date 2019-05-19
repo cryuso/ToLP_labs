@@ -1,8 +1,13 @@
+c = int()
 import random
 print("Ведите левую границу диапазона значений")
 lg = int(input())
 print("Ведите правую границу диапазона значений")
 r = int(input())
+if lg > r:
+    c = lg
+    lg = r
+    r = c
 a = random.randint(lg, r)
 print("Введите ваше число")
 b = int(input())
